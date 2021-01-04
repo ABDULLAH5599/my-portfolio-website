@@ -1,8 +1,79 @@
-  /* this is 1st section style */
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+  /* this is headrt style */
+header{
+
+    background-color: #ad5389;
+}
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+
+}
+.branding{
+    margin-right: 4rem;
+    
+
+}
+.logo{
+    font-size: 30px;
+    
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+
+header nav .left a{
+
+    color: rgb(251, 250, 251);
+    align-items: center;
+    text-decoration: none;
+    margin-right: 7px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+header nav .left a:hover{
+
+    color: rgb(50, 4, 134);
+    transition: all .3s ease;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 0;
+}
+.button{
+    padding: 0.6rem 1rem;
+   background-color: rgb(251, 250, 251);
+   font-size: 1rem;
+   color: rgb(3, 3, 136);
+   border: 2px solid transparent;
+   outline: none;
+   cursor: pointer;
+   text-transform:uppercase;
+   font-weight: bold;
+}
+.button:hover{
+    background:transparent;
+    border:2px solid rgb(251, 250, 251); 
+    color: rgb(251, 250, 251);
+    transition: .3s ease;
+   
+}
+
+  /* this is 1st section style */
 h1{
   padding-top: 10px;
   font-size: 50px; 
